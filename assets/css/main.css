@@ -1,0 +1,225 @@
+/* 
+==============================================
+CONTENT:	Web Dev 2 - Week 2 - Homework
+AUTHOR:		Shelly James
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+/* 1. Main Layout ================================= */
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+  	background: red;
+}
+/* One Column ===========================*/
+.one_column .A {
+	background: yellow;
+	width: 100%;
+	height: 50%;
+}
+
+.one_column .B {
+	background: blue;
+	width: 100%;
+	height: 50%;
+}
+
+/* Two Column ===========================*/
+.two_column .A {
+	background: yellow;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+.two_column .B {
+	background: white;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+/* Three Column ===========================*/
+.three_column .A {
+	background: blue;
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
+
+.three_column .B {
+	background: white;
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
+
+.three_column .C {
+	background: red;
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
+
+/* Four Column ===========================*/
+.four_column .A {
+	background: red;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.four_column .B {
+	background: blue;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.four_column .C {
+	background: yellow;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.four_column .D {
+	background: green;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+/* One Column, stacked on two ===========================*/
+.one_column_stacked_on_two .A {
+	background: red;
+	width: 100%;
+	height: 50%;
+}
+
+.one_column_stacked_on_two .B {
+	background: yellow;
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.one_column_stacked_on_two .C {
+	background: blue;
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+/* Two Column, stacked ===========================*/
+.two_column_stacked .A {
+	background: blue;
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.two_column_stacked .B {
+	background: purple;
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.two_column_stacked .C {
+	background: orange;
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+.two_column_stacked .D {
+	background: yellow;
+	width: 50%;
+	height: 50%;
+	float: left;
+}
+
+/* One Column, stacked on three ===========================*/
+.one_column_stacked_on_three .A {
+	background: blue;
+	width: 100%;
+	height: 50%;
+}
+
+.one_column_stacked_on_three .B {
+	background: green;
+	width: 33.33%;
+	height: 50%;
+	float: left;
+}
+
+.one_column_stacked_on_three .C {
+	background: beige;
+	width: 33.33%;
+	height: 50%;
+	float: left;
+}
+
+.one_column_stacked_on_three .D {
+	background: purple;
+	width: 33.33%;
+	height: 50%;
+	float: left;
+}
+
+/* Two Column, stacked rows ===========================*/
+.two_column_stacked_rows .A {
+	background: red;
+	width: 33.33%;
+	height: 100%;
+	float: left;
+}
+
+.two_column_stacked_rows .B {
+	background: green;
+	width: 66.66%;
+	height: 33.33%;
+	float: left;
+}
+
+.two_column_stacked_rows .C {
+	background: white;
+	width: 66.66%;
+	height: 33.33%;
+	float: left;
+}
+
+.two_column_stacked_rows .D {
+	background: black;
+	width: 66.66%;
+	height: 33.33%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
